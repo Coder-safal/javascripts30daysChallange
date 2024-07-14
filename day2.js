@@ -61,3 +61,30 @@ console.log("Subtraction: ", sub(45, 6));
 console.log("Multiplication: ", multiply(45, 6));
 console.log("divide: ", divide(45, 6));
 console.log("remainder: ", remainder(45, 6));
+
+// Comprassion operator
+
+const lessThan = (a, b) => a < b;
+
+const greterThan = (a, b) => a > b;
+
+const equallTo = (a, b) => a == b;
+
+const equallTowithDataTypes = (a, b) => a === b;
+
+const notEquallto = (a, b) => a != b;
+
+const notEqualltowithDataTypes = (a, b) => a !== b;
+
+
+const ternaryOperator = (a, b) => (a > b) ? true : false;
+
+
+console.log("\n\n\nOperator: ")
+console.log(lessThan(43, 2));
+console.log(greterThan(43, 2));
+console.log(equallTowithDataTypes(43, 2));
+console.log(equallTo(43, 2));
+console.log(notEquallto(43, 2));
+console.log(notEqualltowithDataTypes(43, 2));
+console.log(ternaryOperator(43, 2));
