@@ -90,3 +90,6 @@ switch (weak) {
 let val = 89;
 
 val % 2 == 0 ? console.log("Even nubers") : console.log("Odd nubmers!!");
+
+let leap = 900;
+
